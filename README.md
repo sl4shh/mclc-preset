@@ -31,4 +31,6 @@ Puis après suivez le tutoriel
 ## Sources
 ➡️[CSSButtons](cssbuttons.io)
 
+➡️[SweetAlert2](sweetalert2.github.io)
+
 ➡️Le reste des ressources (sauf le logo discord) sont de créations personnelles. Vous pouvez les utiliser librement sans vente.
