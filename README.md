@@ -29,8 +29,8 @@ dans le repertoire où vous voulez placer votre projet
 Puis après suivez le tutoriel
 
 ## Sources
-➡️[CSSButtons](cssbuttons.io)
+➡️[CSSButtons](https://cssbuttons.io)
 
-➡️[SweetAlert2](sweetalert2.github.io)
+➡️[SweetAlert2](https://sweetalert2.github.io)
 
 ➡️Le reste des ressources (sauf le logo discord) sont de créations personnelles. Vous pouvez les utiliser librement sans vente.
