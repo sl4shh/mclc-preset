@@ -1,0 +1,49 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #101;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+.card {
+  background: red;
+  width: 50vw;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 25px;
+}
+.subcard {
+  background: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px 0;
+}
+button {
+  background-color: aqua;
+  background: linear-gradient(90deg, aqua, red);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 25px;
+}
+input {
+  background: white;
+  padding: 5px;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 5px;
+}

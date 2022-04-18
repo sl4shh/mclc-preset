@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div alt="" class="Background">
+      <img src="img/icon.png" alt="" style="width: 64px; height: 64" />
+    </div>
+    <div class="BigBox CardAnim">
+      <button id="LaunchGame">LANCER LE JEU</button>
+      <h1>Bienvenue sur le Launcher !</h1>
+      <u
+        >Il s'agit d'un Preset de Launcher afin de faire des expérimentations
+        très rapidement sur MC !</u
+      >
+      <div id="CardRow">
+        <div id="TCard">
+          <h1>Besoin d'aide ?</h1>
+          <u>Nous avons une communautée discord assez active !</u>
+          <img src="img/discord.jpg" alt="" />
+          <button
+            onclick="window.LauncherAPI.OpenLink('https://discord.gg/KY37fte')"
+          >
+            Rejoindre le discord !
+          </button>
+        </div>
+        <div id="TCard">
+          <h1>Voir les tutoriels sur YT</h1>
+          <u>Tenez vous au courant des dernières vidéos !</u>
+          <img src="img/yt.jpg" alt="" />
+          <button
+            onclick="window.LauncherAPI.OpenLink('https://www.youtube.com/channel/UCOAn-ri9JRf9pClpgwh4ZzA')"
+          >
+            Voir la chaîne !
+          </button>
+        </div>
+        <div id="TCard">
+          <h1>Besoin d'apprendre les bases ?</h1>
+          <u>Il existe de très bon sites pour ça !</u>
+          <img src="img/sl4sh.jpg" alt="" />
+          <button
+            onclick="window.LauncherAPI.OpenLink('https://www.w3schools.com/js/default.asp')"
+          >
+            JavaScript (nécéssaire)
+          </button>
+          <button
+            onclick="window.LauncherAPI.OpenLink('https://www.w3schools.com/nodejs/default.asp')"
+          >
+            Node.JS (recommandé)
+          </button>
+          <button
+            onclick="window.LauncherAPI.OpenLink('https://www.electronjs.org/docs/latest')"
+          >
+            Electron (facultatif)
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="SmallBox CardAnim">
+      <img src="https://minotar.net/helm/Fir3rl/64.png" alt="" id="Avatar" />
+      <h1 id="LoginStatus">Connecté sous Fir3rl</h1>
+      <button class="red" id="Account">Déconnexion</button>
+      <hr />
+      <h1>Mémoire Vive</h1>
+      <u>
+        <div id="RamVal">4</div>
+        GO</u
+      >
+      <input type="range" min="1" max="10" step="1" value="4" id="RamRange" />
+    </div>
+    <script src="js/swal.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
